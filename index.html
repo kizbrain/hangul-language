@@ -1,5 +1,7 @@
 <!doctype html><html lang="ko"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>한글로 배우는 외국어</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>한글로 배우는 외국어</title><script>(function(){var u=navigator.userAgent||'';if(/KAKAOTALK/i.test(u)){location.href='kakaotalk://web/openExternal?url='+encodeURIComponent(location.href);}
+else if(/Line\/|NAVER\(inapp|Instagram|FBAN|FBAV|DaumApps|everytimeApp/i.test(u)){if(/Android/i.test(u)){location.href='intent://'+location.href.replace(/^https?:\/\//,'')+'#Intent;scheme=https;package=com.android.chrome;end';}
+else{document.addEventListener('DOMContentLoaded',function(){var d=document.createElement('div');d.style.cssText='position:fixed;left:0;right:0;top:0;z-index:99;background:#ffd166;color:#1b1b1b;padding:12px 14px;font:15px sans-serif;text-align:center';d.textContent='오른쪽 아래 메뉴(…)에서 "Safari로 열기"를 누르면 홈 화면에 설치할 수 있어요';document.body.appendChild(d);});}}})();</script>
 <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#14213d">
 <link rel="apple-touch-icon" href="icons/icon-192.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="한글 외국어">
 <style>
@@ -13,9 +15,9 @@ footer{text-align:center;color:#6f80a3;font-size:12px;margin-top:20px}
 </style></head><body><main>
 <h1>한글로 배우는 외국어</h1><p class="lead">듣고 · 뜻 알고 · 따라 하기<br>틀어 두기만 해도 저절로 외워지는 무료 외국어 앱</p>
 <button class="inst" id="inst">📲 홈 화면에 설치하기</button>
-<a class="pk" href="english/1/"><span class="lg">영어</span><b>한글로 배우는 기초영어 100문장 [1]</b><span class="sb">1~100번 · 인사, 식당, 쇼핑, 공항 등 10단원</span></a><div class="pk off"><span class="lg">영어</span><b>한글로 배우는 기초영어 100문장 [2]</b><span class="sb">101~200번 · 준비 중</span></div><div class="pk off"><span class="lg">필리핀어</span><b>한글로 배우는 필리핀어 여행회화 [1]</b><span class="sb">여행 필수 100문장 · 준비 중</span></div>
+<a class="pk" href="english/1/"><span class="lg">영어</span><b>한글로 배우는 기초영어 100문장 [1]</b><span class="sb">1~100번 · 인사, 식당, 쇼핑, 공항 등 10단원</span></a><a class="pk" href="english/2/"><span class="lg">영어</span><b>한글로 배우는 기초영어 100문장 [2]</b><span class="sb">101~200번 · 전화, 일상, 가족, 건강, 여행 등 10단원</span></a><a class="pk" href="tagalog/1/"><span class="lg">따갈로그어 (필리핀)</span><b>한글로 배우는 따갈로그어 100문장 [1]</b><span class="sb">여행 회화 · 인사, 식당, 교통, 쇼핑, 긴급 등 10단원</span></a>
 <div class="tip"><b>홈 화면에 아이콘 만들기</b><br>· 안드로이드(크롬): 위의 설치 버튼, 또는 메뉴 ⋮ → <b>홈 화면에 추가</b><br>· 아이폰(사파리): 아래 공유 버튼 □↑ → <b>홈 화면에 추가</b><br>한 번 열어 둔 과정은 인터넷이 없어도 학습할 수 있어요.</div>
-<footer>한글로 배우는 외국어 · 무료 배포 · v1</footer>
+<footer>한글로 배우는 외국어 · 무료 배포 · v1.2</footer>
 </main><script>
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
 let ev=null; addEventListener('beforeinstallprompt',e=>{e.preventDefault();ev=e;document.getElementById('inst').style.display='block';});
